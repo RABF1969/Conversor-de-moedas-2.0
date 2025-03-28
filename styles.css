@@ -77,24 +77,24 @@ button:hover {
 }
 
 .footer {
-  background-color: #f8f8f8; /* Cor de fundo clara */
-  padding: 20px; /* Espaçamento interno */
-  text-align: center; /* Texto centralizado */
-  font-size: 14px; /* Tamanho da fonte */
-  color: #333; /* Cor do texto */
-  border-top: 1px solid #e0e0e0; /* Linha superior sutil */
-  position: fixed; /* Fixo na parte inferior */
-  bottom: 0; /* Alinhado ao fundo */
-  width: 100%; /* Largura total */
-  left: 0; /* Alinhado à esquerda */
+  background-color: #f8f8f8; 
+  padding: 20px; 
+  text-align: center; 
+  font-size: 14px; 
+  color: #333; 
+  border-top: 1px solid #e0e0e0; 
+  position: fixed; 
+  bottom: 0;
+  width: 100%;
+  left: 0; 
 }
 
-/* Opcional: estilo para links, caso queira adicionar */
+
 .footer a {
-  color: #0066cc; /* Cor do link */
-  text-decoration: none; /* Remove sublinhado */
+  color: #0066cc; 
+  text-decoration: none; 
 }
 
 .footer a:hover {
-  text-decoration: underline; /* Sublinhado ao passar o mouse */
+  text-decoration: underline; 
 }
