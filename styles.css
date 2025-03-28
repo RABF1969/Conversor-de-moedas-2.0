@@ -75,3 +75,26 @@ button:hover {
     background-color: rgba(0, 0, 0, 0.1);
     transition: background-color 0.3s;
 }
+
+.footer {
+  background-color: #f8f8f8; /* Cor de fundo clara */
+  padding: 20px; /* Espaçamento interno */
+  text-align: center; /* Texto centralizado */
+  font-size: 14px; /* Tamanho da fonte */
+  color: #333; /* Cor do texto */
+  border-top: 1px solid #e0e0e0; /* Linha superior sutil */
+  position: fixed; /* Fixo na parte inferior */
+  bottom: 0; /* Alinhado ao fundo */
+  width: 100%; /* Largura total */
+  left: 0; /* Alinhado à esquerda */
+}
+
+/* Opcional: estilo para links, caso queira adicionar */
+.footer a {
+  color: #0066cc; /* Cor do link */
+  text-decoration: none; /* Remove sublinhado */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
