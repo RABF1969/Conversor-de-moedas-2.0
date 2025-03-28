@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #1d4ed8;
+  margin-bottom: 20px;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+button {
+  background-color: #1b6cb7;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #185abd;
+}
+
+#resultado {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#taxa-info {
+  margin-top: 15px;    
+  font-size: 18px;
+  color: #666;
+  
+}
+
+#clear {
+    
+    color: #1b6cb7;
+    background-color: transparent;
+    padding: 10px 15px;
+    margin-top: 20px;
+    border: 1px solid #1b6cb7;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    
+}
+
+#clear:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}

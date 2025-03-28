@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Conversor de Moedas</title>
+  </head>
+  <body>
+    <h1>Conversor de Dólar para Real</h1>
+
+    <label for="valor">Digite o Valor em Dólar ($):</label>
+    <input type="number" id="valor" placeholder="Exemplo: 100" />
+
+    <button onclick="converter()">Converter para Real</button>
+   
+
+    <div id="resultado">O valor em Reais aparecerá aqui</div>
+    <!-- <div id="taxa-info">Taxa atual = 5.1 Dólar = 1 Real</div> -->
+    <button onclick="limpar()"id="clear">Limpar</button> <!-- Botão para limpar -->
+  </body>
+  <script src="scripts.js"></script>
+</html>
